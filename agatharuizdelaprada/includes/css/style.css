@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------STYLE SITE-----------------------------*/
+
+body{
+	position:relative;
+	width:810px;
+	height:810px;
+}
+
+.contenedor{
+	width:810px;
+	height:810px;
+	border:none;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+.nofan{
+	background:url(../img/back_nofan.jpg) no-repeat 0 0;
+}
+
+.fan{
+	background:url(../img/back_fan.jpg) no-repeat 0 0;
+}
+
+.preguntas{
+	background: url(../img/back_preguntas.jpg) no-repeat 0 0;
+}
+
+.test{
+	background: url(../img/back_enviartest.jpg) no-repeat 0 0;
+}
+
+.gracias{
+	background: url(../img/back_gracias.jpg) no-repeat 0 0;
+}
+
+
+.participar{
+background: url(../img/btn_participa.png) no-repeat 0 0;
+width: 240px;
+height: 105px;
+display: block;
+position: absolute;
+bottom: 40px;
+left: 285px;
+}
+
+.participar:hover{
+background: url(../img/btn_participa_hover.png) no-repeat 0 0;
+}
+
+ul.menu{
+background: url(../img/menubases_premios.png) no-repeat 0 0;
+width: 185px;
+height: 75px;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 3;
+}
+
+ul.menu a.bases{
+	width:85px;
+	height:75px;
+	float:left;
+}
+
+ul.menu a.premios{
+	width:85px;
+	height:75px;
+	float:right;
+}
+
+form{
+
+}
+
+label{
+width: 537px;
+height: 59px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 45px;
+left: 100px;
+}
+
+.preguntas div{
+	position:relative;
+	width:736px;
+	height:403px;
+	margin:0 auto;
+	top:300px;
+}
+
+
+.campo_grande{
+background: url(../img/campo_grande.png) no-repeat 0 0;
+width: 517px;
+height: 61px;
+position: absolute;
+margin: 0 auto;
+padding: 5px 10px;
+border: none;
+top: 110px;
+left: 105px;
+font-size: 16px;
+color: #999;
+}
+
+.campo_peque{
+background: url(../img/campos_inferiores.png) no-repeat 0 0;
+width: 337px;
+height: 41px;
+padding: 5px 10px;
+color: #999;
+border: none;
+margin: 0;
+position: absolute;
+bottom: 115px;
+}
+
+.izquierda{
+	left:0;
+}
+
+.derecha{
+	left:400px;
+}
+
+.enviar{
+	background:url(../img/btn_siguiente.png) no-repeat 0 0;
+	width:160px;
+	height:75px;
+	display:block;
+	position:absolute;
+	left: 300px;
+	bottom:0px;
+	padding:0;
+	border:none;
+	cursor:pointer;
+}
+
+.enviar:hover{
+	background:url(../img/btn_siguiente_hover.png) no-repeat 0 0;
+}
+
+.preguntas .paso1{
+background: url(../img/paso1.png) no-repeat 0 0;
+width: 454px;
+height: 46px;
+margin: 0 auto;
+position: relative;
+top: -23px;
+}
+
+.preguntas .paso2{
+background: url(../img/paso2.png) no-repeat 0 0;
+width: 454px;
+height: 46px;
+margin: 0 auto;
+position: relative;
+top: -23px;
+}
+
+.preguntas .paso3{
+background: url(../img/paso3.png) no-repeat 0 0;
+width: 454px;
+height: 46px;
+margin: 0 auto;
+position: relative;
+top: -23px;
+}
+
+.preguntas .paso4{
+background: url(../img/paso4.png) no-repeat 0 0;
+width: 454px;
+height: 46px;
+margin: 0 auto;
+position: relative;
+top: -23px;
+}
+
+.preguntas .paso5{
+background: url(../img/paso5.png) no-repeat 0 0;
+width: 454px;
+height: 46px;
+margin: 0 auto;
+position: relative;
+top: -23px;
+}
+
+.enviartest{
+background: url(../img/btn_enviaramigas.png) no-repeat 0 0;
+width: 370px;
+height: 85px;
+display: block;
+position: absolute;
+bottom: 150px;
+left: 220px;
+}
+
+.invitar{
+	background: url(../img/btn_invita.png) no-repeat 0 0;
+	width:250px;
+	height:75px;
+	display:block;
+	position:absolute;
+bottom: 140px;
+left: 140px;
+}
+
+.invitar:hover{
+	background:url(../img/btn_invita_hover.png) no-repeat 0 0;
+}
+
+.compartir{
+	background: url(../img/comparte.png) no-repeat 0 0;
+	width:250px;
+	height:75px;
+	display:block;
+	position:absolute;
+bottom: 140px;
+left: 430px;
+}
+
+.compartir:hover{
+	background:url(../img/comparte_hover.png) no-repeat 0 0;
+}
