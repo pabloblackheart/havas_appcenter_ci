@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="<?php echo base_url();?>/assets/assets_admin/css/font.css" type="text/css" cache="false" />
   <link rel="stylesheet" href="<?php echo base_url();?>/assets/assets_admin/css/plugin.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo base_url();?>/assets/assets_admin/css/app.css" type="text/css" />
+  <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="js/ie/respond.min.js" cache="false"></script>
     <script src="js/ie/html5.js" cache="false"></script>

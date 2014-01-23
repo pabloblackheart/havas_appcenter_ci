@@ -85,7 +85,7 @@
           <nav class="nav-primary hidden-xs">
             <ul class="nav">
               <li class="active">
-                <a href="index">
+                <a href="<?php echo base_url();?>administrador_controller/index">
                   <i class="fa fa-eye"></i>
                   <span>Inicio</span>
                 </a>
@@ -97,10 +97,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="all_apps">Todas las aplicaciones</a>
+                    <a href="<?php echo base_url();?>administrador_controller/all_apps">Todas las aplicaciones</a>
                   </li>
                   <li>
-                    <a href="new_app">Crear nueva aplicación</a>
+                    <a href="<?php echo base_url();?>administrador_controller/new_app">Crear nueva aplicación</a>
                   </li>
                 </ul>
               </li>
